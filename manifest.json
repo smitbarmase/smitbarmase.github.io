@@ -1,0 +1,15 @@
+{
+  "short_name": "Smit | Portfolio",
+  "name": "Smit Barmase | Portfolio",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "24x24",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
