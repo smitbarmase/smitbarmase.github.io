@@ -1,16 +1,9 @@
-import _cubeImg from "../images/cube.png";
-import _snakeImg from "../images/snake.png";
-import _2048Img from "../images/2048.png";
-import _sortImg from "../images/sort.png";
-import _asciiImg from "../images/ascii.png";
-import _searchImg from "../images/search.jpg";
-
 import CardInterface from "../interface/CardInterface";
 
 const Cards: CardInterface[] = [
   {
     title: "Pathfinding Snake Game Visualizer",
-    img: _snakeImg,
+    img: "/images/algorithmic-projects/snake.png",
     visit: "https://github.com/smitbarmase/pathfinding-snake-game-visualizer",
     live: "https://smitbarmase.github.io/pathfinding-snake-game-visualizer/",
     createdAt: "Jan 18, 2020",
@@ -19,7 +12,7 @@ const Cards: CardInterface[] = [
   },
   {
     title: "Rubik's Cube AI Solver",
-    img: _cubeImg,
+    img: "/images/algorithmic-projects/cube.png",
     visit: "https://github.com/smitbarmase/rubiks-cube-solver",
     live: "https://smitbarmase.github.io/rubiks-cube-solver/",
     createdAt: "March 15, 2020",
@@ -29,7 +22,7 @@ const Cards: CardInterface[] = [
   },
   {
     title: "2048 AI Solver",
-    img: _2048Img,
+    img: "/images/algorithmic-projects/2048.png",
     visit: "https://github.com/smitbarmase/2048-ai",
     live: "https://smitbarmase.github.io/2048-ai/",
     createdAt: "March 29, 2020",
@@ -39,7 +32,7 @@ const Cards: CardInterface[] = [
   },
   {
     title: "Sorting Algorithm Visualizer",
-    img: _sortImg,
+    img: "/images/algorithmic-projects/sort.png",
     visit: "https://github.com/smitbarmase/sorting-algorithm-visualizer",
     live: "https://smitbarmase.github.io/sorting-algorithm-visualizer/",
     createdAt: "April 12, 2020",
@@ -49,7 +42,7 @@ const Cards: CardInterface[] = [
   },
   {
     title: "Video To ASCII Characters Converter",
-    img: _asciiImg,
+    img: "/images/algorithmic-projects/ascii.png",
     visit: "https://github.com/smitbarmase/Video-To-ASCII-Manipulation",
     createdAt: "Jun 6, 2020",
     info:
@@ -58,7 +51,7 @@ const Cards: CardInterface[] = [
   },
   {
     title: "Search Algorithm Visualizer",
-    img: _searchImg,
+    img: "/images/algorithmic-projects/search.jpg",
     visit: "https://github.com/smitbarmase/react-search-algorithm-visualizer",
     createdAt: "June 12, 2020",
     info:

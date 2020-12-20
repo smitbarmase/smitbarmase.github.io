@@ -1,11 +1,9 @@
-import _dscImg from "../images/web-projects/dsc.png";
-
 import CardInterface from "../interface/CardInterface";
 
 const Cards: CardInterface[] = [
   {
     title: "Developer Student Clubs VIT Bhopal",
-    img: _dscImg,
+    img: "/images/web-projects/dsc.png",
     visit: "https://github.com/DSCVITBHOPAL/dscvitbhopal.github.io",
     live: "https://dscvitbhopal.github.io/",
     createdAt: "Nov 30, 2020",

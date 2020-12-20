@@ -1,15 +1,9 @@
-import _ironWheelImg from "../images/ironwheel.png";
-import _realCubeImg from "../images/realcube.png";
-import _ponkeyBirdsImg from "../images/ponkey.png";
-import _2048MagicImg from "../images/magic2048.jpg";
-import _magicTicTacToeImg from "../images/magictictactoe.jpg";
-
 import CardInterface from "../interface/CardInterface";
 
 const PlayStoreCards: CardInterface[] = [
   {
     title: "Iron Wheel",
-    img: _ironWheelImg,
+    img: "/images/game-projects/ironwheel.png",
     visit:
       "https://play.google.com/store/apps/details?id=com.twelfish.ironwheel",
     createdAt: "Jan 17, 2016",
@@ -19,7 +13,7 @@ const PlayStoreCards: CardInterface[] = [
   },
   {
     title: "Real Cube",
-    img: _realCubeImg,
+    img: "/images/game-projects/realcube.png",
     visit:
       "https://play.google.com/store/apps/details?id=com.twelfish.realcube",
     createdAt: "Jan 17, 2016",
@@ -28,7 +22,7 @@ const PlayStoreCards: CardInterface[] = [
   },
   {
     title: "Ponkey Birds",
-    img: _ponkeyBirdsImg,
+    img: "/images/game-projects/ponkey.png",
     visit:
       "https://play.google.com/store/apps/details?id=com.twelfish.ponkeybirds",
     createdAt: "June 5, 2016",
@@ -37,7 +31,7 @@ const PlayStoreCards: CardInterface[] = [
   },
   {
     title: "2048 Magic",
-    img: _2048MagicImg,
+    img: "/images/game-projects/magic2048.jpg",
     visit:
       "https://play.google.com/store/apps/details?id=com.twelfish.magic2048",
     createdAt: "March 9, 2020",
@@ -47,7 +41,7 @@ const PlayStoreCards: CardInterface[] = [
   },
   {
     title: "Tic-Tac-Toe Magic",
-    img: _magicTicTacToeImg,
+    img: "/images/game-projects/magictictactoe.jpg",
     visit:
       "https://play.google.com/store/apps/details?id=com.twelfish.magictictactoe",
     createdAt: "March 24, 2020",

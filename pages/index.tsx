@@ -7,7 +7,7 @@ import webAppsCards from "../constants/web-apps";
 import Card from "../components/Card";
 import Profile from "../components/Profile";
 
-const Home: React.FC = () => {
+const Home = () => {
   const tech = [
     "React",
     "NextJS",
@@ -24,7 +24,7 @@ const Home: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>Smit Barmase | Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="h-screen bg-blueGray-100 overflow-y-scroll">

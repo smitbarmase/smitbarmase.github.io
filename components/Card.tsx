@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import Button from "./Button";
 
 import { DiGithubBadge } from "react-icons/di";
@@ -17,7 +19,9 @@ const Card: React.FC<CardProps> = (props) => {
     <div className="bg-white rounded shadow overflow-hidden transition-shadow hover:shadow-md">
       <div className="p-3 space-y-3">
         <div className="flex space-x-3">
-          <img src={img} className="h-28 w-28 rounded" />
+          <div className="relative h-28 w-28 rounded overflow-hidden">
+            <Image src={img} alt={title} layout="fill" />
+          </div>
           <div className="flex-1 flex flex-col justify-between">
             <div className="space-y-1">
               <div className="font-medium text-sm">{title}</div>
