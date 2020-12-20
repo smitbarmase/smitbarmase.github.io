@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "npm run build && gh-pages -d build"
   },
   "dependencies": {
     "autoprefixer": "^10.1.0",
