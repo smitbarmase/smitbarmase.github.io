@@ -1,5 +1,5 @@
 import ButtonLarge from "./ButtonLarge";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 
 const Profile: React.FC = () => {
   return (
@@ -23,6 +23,10 @@ const Profile: React.FC = () => {
           <ButtonLarge link="https://www.linkedin.com/in/smitbarmase/">
             <FaLinkedin fontSize={16} className="mr-2" />
             LinkedIn
+          </ButtonLarge>
+          <ButtonLarge link="https://www.youtube.com/channel/UCNN-8t9vWnL0jydIHMr1KHg">
+            <FaYoutube fontSize={16} className="mr-2" />
+            YouTube
           </ButtonLarge>
         </div>
       </div>
